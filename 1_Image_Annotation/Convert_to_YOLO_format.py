@@ -25,7 +25,7 @@ VoTT_csv = os.path.join(VoTT_Folder, "Annotations-export.csv")
 YOLO_filename = "/kaggle/working/TrainYourOwnYOLO/Data/data_train.txt"
 
 model_folder = os.path.join(Data_Folder, "Model_Weights")
-classes_filename = "/kaggle/input/image-rec-training-dataset/data_classes.txt"
+classes_filename = "/kaggle/working/TrainYourOwnYOLO/Data/data_classes.txt"
 
 if __name__ == "__main__":
     # surpress any inhereted default values
