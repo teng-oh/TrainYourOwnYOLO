@@ -20,12 +20,12 @@ sys.path.append(os.path.join(get_parent_dir(1), "Utils"))
 from Convert_Format import convert_vott_csv_to_yolo
 
 Data_Folder = os.path.join(get_parent_dir(1), "Data")
-VoTT_Folder = "kaggle/input/image-rec-training-dataset/Training_Images/Training_Images/vott-csv-export"
+VoTT_Folder = "../input/image-rec-training-dataset/Training_Images/Training_Images/vott-csv-export"
 VoTT_csv = os.path.join(VoTT_Folder, "Annotations-export.csv")
 YOLO_filename = os.path.join(VoTT_Folder, "data_train.txt")
 
 model_folder = os.path.join(Data_Folder, "Model_Weights")
-classes_filename = "kaggle/input/image-rec-training-dataset/data_classes.txt"
+classes_filename = "../input/image-rec-training-dataset/data_classes.txt"
 
 if __name__ == "__main__":
     # surpress any inhereted default values
