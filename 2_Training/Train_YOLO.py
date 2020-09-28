@@ -62,7 +62,7 @@ keras_path = "/kaggle/working/TrainYourOwnYOLO/2_Training/src/keras_yolo3"
 Data_Folder = os.path.join(get_parent_dir(1), "Data")
 Image_Folder = "/kaggle/input/image-rec-training-dataset/Training_Images"
 VoTT_Folder = os.path.join(Image_Folder, "vott-csv-export")
-YOLO_filename = "/kaggle/input/image-rec-training-dataset/Training_Images"
+YOLO_filename = "/kaggle/working/TrainYourOwnYOLO/Data/data_train.txt"
 
 Model_Folder = os.path.join(Data_Folder, "Model_Weights")
 YOLO_classname = os.path.join(Model_Folder, "data_classes.txt")
