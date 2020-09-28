@@ -114,9 +114,9 @@ def get_random_data(
     image = new_image
 
     # flip image or not
-    flip = rand() < 0.5
-    if flip:
-        image = image.transpose(Image.FLIP_LEFT_RIGHT)
+    #flip = rand() < 0.5
+    #if flip:
+    #    image = image.transpose(Image.FLIP_LEFT_RIGHT)
 
     # distort image
     hue = rand(-hue, hue)
