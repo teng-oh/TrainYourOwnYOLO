@@ -58,7 +58,7 @@ from Train_Utils import (
 )
 
 
-keras_path = os.path.join(src_path, "keras_yolo3")
+keras_path = "/kaggle/working//TrainYourOwnYOLO/2_Training/src/keras_yolo3"
 Data_Folder = os.path.join(get_parent_dir(1), "Data")
 Image_Folder = "/kaggle/input/image-rec-training-dataset/Training_Images"
 VoTT_Folder = os.path.join(Image_Folder, "vott-csv-export")
