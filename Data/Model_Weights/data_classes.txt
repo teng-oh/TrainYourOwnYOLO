@@ -1,1 +1,15 @@
-Cat_Face
+down arrow
+right arrow
+Go
+Alphabet Z
+left arrow
+up arrow
+zero
+six
+seven
+eight
+nine
+Alphabet V
+Alphabet W
+Alphabet X
+Alphabet Y
