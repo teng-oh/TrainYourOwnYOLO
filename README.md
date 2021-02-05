@@ -1,1 +1,1 @@
-Forked off from "https://github.com/AntonMu/TrainYourOwnYOLO" to suit my own needs.
+Forked off from "https://github.com/AntonMu/TrainYourOwnYOLO" to suit my own needs, mainly to switch it so it can be ran on kaggle and to edit the training process such that it doesn't flip the image around.
